@@ -186,9 +186,7 @@ CGFloat const STPPaymentCardTextFieldMinimumPadding = 10;
     fieldsView.backgroundColor = [UIColor clearColor];
     self.fieldsView = fieldsView;
 
-    self.allFields = @[numberField,
-                       expirationField,
-                       cvcField];
+    self.allFields = @[numberField];
     
     [self addSubview:self.fieldsView];
     for (STPFormTextField *field in self.allFields) {
