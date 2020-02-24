@@ -188,8 +188,7 @@ CGFloat const STPPaymentCardTextFieldMinimumPadding = 10;
 
     self.allFields = @[numberField,
                        expirationField,
-                       cvcField,
-                       postalCodeField];
+                       cvcField];
     
     [self addSubview:self.fieldsView];
     for (STPFormTextField *field in self.allFields) {
